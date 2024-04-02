@@ -7,7 +7,7 @@
 
 using namespace std;
 
-typedef struct node { 
+typedef struct node { //company node
 	
 	string ticker;
 	string name;
@@ -36,18 +36,21 @@ class Linked_list {
 
 public:
 	Linked_list();
-	void add_list(node* new_node); 
-	void print_list(); 
+	void add_list(node* new_node); //add node to linked list
+	void print_list(); //print entire linked list
 
 	
-	Linked_list* find_name(string name, int sort1, int sort2);
-	Linked_list* find_ticker(string ticker, int sort1, int sort2);
+	Linked_list* find_name(string name, int sort1, int sort2); //find list by name
+	Linked_list* find_ticker(string ticker, int sort1, int sort2); //find list by ticker
  
-	Linked_list* find_industry(string industry, int sort1, int sort2);
+	Linked_list* find_industry(string industry, int sort1, int sort2); //find list by industry
 
 	Linked_list* sort_by(Linked_list* list, int sort1, int sort2); 
+	//sort list 
+	//:param sort1: search by descending or ascending order
+	//:param sort2: search by ranking or number of reviews
 
-	Linked_list* resverse_list(Linked_list* list);
+	Linked_list* resverse_list(Linked_list* list); //reverse linked list
 	
 };
 
