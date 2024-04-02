@@ -1,4 +1,4 @@
-## ESG-Tracker
+## ESG Tracker
 ***
 #### About ESG Tracker
 
