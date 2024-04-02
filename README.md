@@ -12,7 +12,7 @@
 #### Features
 
 + Search company by name, ticker or industry.
-+ Sort Data by environment score, social score, governance score, or total score.
++ Sort data by environment score, social score, governance score, or total score.
 + Displays companies' name, exchange market, environment score/grade, social score/grade, governance score/grade, and total score/grade.
 
 ### How to Use
