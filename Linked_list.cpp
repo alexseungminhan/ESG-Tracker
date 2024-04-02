@@ -272,7 +272,7 @@ Linked_list* Linked_list::sort_by(Linked_list* list, int sort1, int sort2) {
 		else  cur = cur->next;
 
 	}
-	if (sort1 == 1) return list; 
-	else return resverse_list(list); 
+	if (sort1 == 1) return list; //ascending order
+	else return resverse_list(list); //descending order
 
 }
