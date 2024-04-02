@@ -29,12 +29,12 @@ int main() {
 	int sort1;
 	cin >> sort1;
 
-	if (select == 0) {
+	if (select == 0) { //search all
 		result = esg_list->sort_by(esg_list, sort1, sort2);
 		result->print_list();
 	}
 
-	if (select == 1) {
+	if (select == 1) { //search by name
 		cout << "\033[36mname:\033[0m";
 		string name;
 		cin >> name;
@@ -42,7 +42,7 @@ int main() {
 		result->print_list();
 	}
 
-	if (select == 2) {
+	if (select == 2) { //search by ticker
 		cout << "\033[36mticker:\033[0m";
 		string ticker;
 		cin >> ticker;
@@ -50,7 +50,7 @@ int main() {
 		result->print_list();
 	}
 
-	if (select == 3) {
+	if (select == 3) { //search by industry
 		cout << "\033[36mindustry:\033[0m";
 		string industry;
 		cin >> industry;
