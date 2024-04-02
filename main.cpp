@@ -29,14 +29,6 @@ int main() {
 	int sort1;
 	cin >> sort1;
 
-
-	/*cout << "Search: 0.search all 1. find by name 2. find by ticker 3. find by industry" << endl;
-	cout << "\033[36mfind by:\033[0m";
-
-	int select;
-	cin >> select;
-	*/
-
 	if (select == 0) {
 		result = esg_list->sort_by(esg_list, sort1, sort2);
 		result->print_list();
